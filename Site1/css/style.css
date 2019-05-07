@@ -8,6 +8,7 @@ body {
   opacity: 0.8;
 }
 
+/* Home section start */
 #home-section {
   background: url(../img/home.jpg);
   background-repeat: no-repeat;
@@ -33,9 +34,27 @@ body {
   opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas,
+#create-section .fas {
   color: #008ed6;
   background: white;
   padding: 5px;
   border-radius: 5px;
 }
+
+/* Home section end */
+
+/* Explore section start */
+#explore-section .fas,
+#share-section .fas {
+  background: #333333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Explore section end */
+
+/* Create section start */
+
+/* Create section end */
